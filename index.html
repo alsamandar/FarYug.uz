@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
+    <script>document.documentElement.classList.add('js')</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Primary SEO -->
     <title>Fergana Runners — Farg'ona yugurish klubi | FarYug.uz</title>
-    <meta name="description" content="Fergana Runners — Farg'ona yugurish klubi. Ertalabki yugurishlar, har yakshanba 20 km Die Hard, marafonlarga tayyorgarlik. Strava'da 100+ yuguruvchi. Qo'shiling!">
-    <meta name="keywords" content="fergana runners, farg'ona yugurish klubi, running club fergana, yugurish farg'ona, running uzbekistan, marafon, die hard run, IronReaders">
+    <meta name="description" content="Fergana Runners — Farg'ona yugurish klubi. Har shanba ertalab bepul Fun Run (5 km), yakshanba long run, marafonlarga tayyorgarlik. Strava'da 100+ yuguruvchi. Qo'shiling!">
+    <meta name="keywords" content="fergana runners, fun run fergana, farg'ona yugurish klubi, running club fergana, yugurish farg'ona, running uzbekistan, marafon, die hard run, IronReaders">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="author" content="Fergana Runners">
     <meta name="theme-color" content="#0b3b2e">
@@ -17,7 +18,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Fergana Runners">
     <meta property="og:title" content="Fergana Runners — Farg'ona yugurish klubi">
-    <meta property="og:description" content="Farg'onadagi eng faol yugurish jamoasi: ertalabki yugurishlar, har yakshanba 20 km Die Hard, marafonlarga birga tayyorgarlik. 100+ yuguruvchi Strava klubida.">
+    <meta property="og:description" content="Farg'onadagi eng faol yugurish jamoasi: har shanba bepul Fun Run 5 km, yakshanba long run, marafonlarga birga tayyorgarlik. 100+ yuguruvchi Strava klubida.">
     <meta property="og:url" content="https://faryug.uz/">
     <meta property="og:image" content="https://faryug.uz/og-image.png">
     <meta property="og:image:width" content="1200">
@@ -27,7 +28,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fergana Runners — Farg'ona yugurish klubi">
-    <meta name="twitter:description" content="Farg'onadagi yugurish jamoasi. Har yakshanba 20 km Die Hard. Strava'da 100+ yuguruvchi. Qo'shiling!">
+    <meta name="twitter:description" content="Farg'onadagi yugurish jamoasi. Har shanba bepul Fun Run 5 km. Strava'da 100+ yuguruvchi. Qo'shiling!">
     <meta name="twitter:image" content="https://faryug.uz/og-image.png">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏃</text></svg>">
@@ -44,7 +45,7 @@
           "alternateName": ["FarYug", "IronReaders"],
           "url": "https://faryug.uz/",
           "image": "https://faryug.uz/og-image.png",
-          "description": "Farg'ona shahridagi yugurish klubi: ertalabki yugurishlar, har yakshanba 20 km Die Hard long run, marafonlarga birgalikda tayyorgarlik.",
+          "description": "Farg'ona shahridagi yugurish klubi: har shanba bepul Fun Run (5 km), yakshanba long run, marafonlarga birgalikda tayyorgarlik.",
           "sport": "Running",
           "address": {
             "@type": "PostalAddress",
@@ -54,7 +55,9 @@
           },
           "sameAs": [
             "https://t.me/IronReaders",
-            "https://strava.app.link/NVgD8Segq3b"
+            "https://t.me/Iron_readers",
+            "https://www.instagram.com/ferganarunners",
+            "https://strava.app.link/38Zmm29RB6b"
           ]
         },
         {
@@ -67,9 +70,37 @@
         },
         {
           "@type": "SportsEvent",
+          "name": "Fergana Runners Fun Run — haftalik 5 km",
+          "description": "Har shanba ertalab bepul, musobaqasiz 5 km Fun Run. Yig'ilish 05:30, start 06:00, San'at saroyi maydonida. Telegram botda ro'yxatdan o'tish kerak.",
+          "startDate": "2026-10-03T06:00:00+05:00",
+          "eventSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1W",
+            "byDay": "https://schema.org/Saturday",
+            "startTime": "06:00:00",
+            "scheduleTimezone": "Asia/Tashkent"
+          },
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "isAccessibleForFree": true,
+          "location": {
+            "@type": "Place",
+            "name": "San'at saroyi maydoni",
+            "address": { "@type": "PostalAddress", "addressLocality": "Fergana", "addressCountry": "UZ" }
+          },
+          "organizer": { "@id": "https://faryug.uz/#club" }
+        },
+        {
+          "@type": "SportsEvent",
           "name": "Die Hard yakshanba long run — Fergana Runners",
-          "description": "Har yakshanba kamida 20 km jamoaviy yugurish. Yig'ilish soat 4:30 da, San'at saroyi maydonida. Barcha uchun ochiq.",
-          "startDate": "2026-07-05T04:30:00+05:00",
+          "description": "Har yakshanba kamida 20 km jamoaviy yugurish, San'at saroyi maydonida. Barcha uchun ochiq. Vaqti mavsumga qarab guruhda e'lon qilinadi.",
+          "startDate": "2026-10-04",
+          "eventSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1W",
+            "byDay": "https://schema.org/Sunday",
+            "scheduleTimezone": "Asia/Tashkent"
+          },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "isAccessibleForFree": true,
@@ -104,7 +135,15 @@
               "name": "Mashg'ulotlar qayerda va qachon o'tadi?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Asosiy yig'ilish joyi — Farg'ona shahri, San'at saroyi maydoni. Yozda ertalabki yugurishlar soat 4:30–5:00 da, kechki yengil yugurishlar 20:00–21:00 da, yakshanba kunlari esa 20 km lik Die Hard long run bo'ladi."
+                "text": "Asosiy yig'ilish joyi — Farg'ona shahri, San'at saroyi maydoni. Har shanba 05:30 da yig'ilib, 06:00 da 5 km Fun Run start oladi; kechki yengil yugurishlar 20:00–21:00 da; yakshanba kunlari esa 20 km lik Die Hard long run bo'ladi (vaqti mavsumga qarab guruhda e'lon qilinadi)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Fun Run nima va unga qanday yozilaman?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Fun Run — har shanba ertalab San'at saroyi maydonida o'tadigan bepul 5 km yugurish. Bu musobaqa emas: har kim o'z tempida yuguradi. Telegram botda (t.me/Fargona_marafon_bot) bir marta ro'yxatdan o'ting, keyin har hafta 'Kelaman' tugmasini bosing. Yig'ilish 05:30, start 06:00."
               }
             },
             {
@@ -330,12 +369,25 @@
         .social-row svg { width: 20px; height: 20px; fill: #fff; }
         .copyright { border-top: 1px solid rgba(255,255,255,.1); padding-top: 22px; font-size: .85rem; text-align: center; }
 
+        /* Fun Run highlight */
+        .next-run {
+            display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap;
+            margin: 0 0 24px 10px; padding: 6px 16px; border-radius: 999px;
+            background: rgba(252, 76, 2, .16); border: 1px solid rgba(252, 76, 2, .55);
+            color: #ffe3d4; font-weight: 600; font-size: .92rem;
+        }
+        .next-run strong { color: #fff; }
+        .js-next-run { color: var(--orange-dark); }
+        .events-empty { background: #fff; border-radius: 14px; padding: 22px; box-shadow: var(--card-shadow); color: var(--muted); }
+        .result-grid.two { grid-template-columns: repeat(2, 1fr); }
+        @media (max-width: 860px) { .result-grid.two { grid-template-columns: 1fr; } }
+        .js .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+        .js .reveal.visible { opacity: 1; transform: none; }
+
         /* Reveal animation */
-        .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
-        .reveal.visible { opacity: 1; transform: none; }
         @media (prefers-reduced-motion: reduce) {
             html { scroll-behavior: auto; }
-            .reveal { opacity: 1; transform: none; transition: none; }
+            .js .reveal { opacity: 1; transform: none; transition: none; }
         }
     </style>
 </head>
@@ -374,18 +426,22 @@
     <section class="hero" id="home">
         <div class="container">
             <span class="hero-badge">🏃‍♂️ Farg'ona vodiysining yugurish jamoasi</span>
+            <p class="next-run" id="next-run-hero">🔥 Fun Run — har shanba, <strong>05:30 yig'ilish · 06:00 start</strong></p>
             <h1>Fergana <span class="accent">Runners</span></h1>
             <p class="tagline">
-                Farg'ona yugurish klubi — har tong San'at saroyidan start olamiz,
-                har yakshanba 20 km Die Hard bosamiz va marafonlarga birga tayyorlanamiz.
+                Farg'ona yugurish klubi — har shanba ertalab San'at saroyidan bepul 5 km Fun Run,
+                yakshanba kunlari long run va marafonlarga birga tayyorgarlik.
                 Endi boshlayotganlardan ultramarafonchilargacha — hammaga joy bor.
             </p>
             <div class="hero-actions">
-                <a class="btn btn-primary" href="https://t.me/IronReaders" rel="noopener">
+                <a class="btn btn-primary" href="https://t.me/Fargona_marafon_bot" rel="noopener">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.04 15.31 8.7 19.9c.47 0 .68-.2.93-.45l2.24-2.14 4.64 3.4c.85.47 1.46.22 1.69-.79l3.06-14.34c.27-1.25-.45-1.74-1.28-1.44L2.2 11.06c-1.23.48-1.21 1.16-.21 1.47l4.6 1.44L17.3 7.24c.5-.33.96-.15.58.18l-8.84 7.9z"/></svg>
-                    Telegram'da qo'shilish
+                    Fun Run'ga yozilish
                 </a>
-                <a class="btn btn-ghost" href="https://strava.app.link/NVgD8Segq3b" rel="noopener">
+                <a class="btn btn-ghost" href="https://t.me/IronReaders" rel="noopener">
+                    Telegram guruh
+                </a>
+                <a class="btn btn-ghost" href="https://strava.app.link/38Zmm29RB6b" rel="noopener">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.39 17.94l-2.09-4.11h-3.07L15.39 24l5.15-10.17h-3.07m-7.01-5.6l2.84 5.6h4.17L10.46 0l-7 13.83h4.17"/></svg>
                     Strava klubi
                 </a>
@@ -425,7 +481,7 @@
                         Marafondan keyin esa an'anaviy osh va choyxona ham bor 😉
                     </p>
                     <div class="chips" aria-label="Klub yo'nalishlari">
-                        <span class="chip">Ertalabki yugurishlar</span>
+                        <span class="chip">Fun Run 5 km</span>
                         <span class="chip">Long run 20 km+</span>
                         <span class="chip">Marafon tayyorgarligi</span>
                         <span class="chip">Tog' treyli</span>
@@ -442,7 +498,7 @@
                         and mountain trail ultras across Central Asia.
                     </p>
                     <p style="margin-top:10px">
-                        Join us on <a href="https://strava.app.link/NVgD8Segq3b" rel="noopener">Strava</a>
+                        Join us on <a href="https://strava.app.link/38Zmm29RB6b" rel="noopener">Strava</a>
                         or say hello in our <a href="https://t.me/IronReaders" rel="noopener">Telegram group</a> —
                         runners of all levels are welcome, membership is free.
                     </p>
@@ -460,27 +516,30 @@
                 <p>Asosiy yig'ilish joyimiz — Farg'ona shahri, San'at saroyi maydoni (bayroq tagida 🚩).</p>
             </div>
             <div class="cards">
-                <article class="card reveal">
-                    <span class="emoji" aria-hidden="true">🌅</span>
-                    <h3>Ertalabki yugurishlar</h3>
+                <article class="card hot reveal">
+                    <span class="emoji" aria-hidden="true">🏃</span>
+                    <h3>Fun Run — har shanba</h3>
                     <p>
-                        Kunni jamoa bilan boshlaymiz: yozda saharlab, salqinda. Temp erkin —
-                        har kim o'z darajasida yuguradi, hech kim ortda qolmaydi.
+                        Musobaqa emas, bepul va hamma uchun: 5 km yengil temp, har kim o'z
+                        tezligida. Keyin suhbat va kichik kitob muhokamasi. Botda bir marta
+                        ro'yxatdan o'ting, keyin har hafta "Kelaman" tugmasini bosing.
                     </p>
                     <div class="meta">
-                        <span>⏰ Yozda 4:30 – 5:00</span>
-                        <span>📍 San'at saroyi, Farg'ona</span>
+                        <span>⏰ Shanba: yig'ilish 05:30 · start 06:00</span>
+                        <span>📍 <a href="https://maps.app.goo.gl/wyVryiFfSNrsomj3A" rel="noopener">San'at saroyi, Farg'ona</a></span>
+                        <span>🤖 <a href="https://t.me/Fargona_marafon_bot" rel="noopener">@Fargona_marafon_bot</a></span>
+                        <span class="js-next-line" hidden>📅 Keyingi: <b class="js-next-run"></b></span>
                     </div>
                 </article>
-                <article class="card hot reveal">
+                <article class="card reveal">
                     <span class="emoji" aria-hidden="true">🔥</span>
                     <h3>Die Hard — yakshanba long run</h3>
                     <p>
-                        Haftaning asosiy mashg'uloti: kamida 20 km. Respublika bo'ylab o'tadigan
-                        Die Hard harakatining Farg'ona bosqichi — natijangiz shahar reytingiga yoziladi.
+                        Kamida 20 km. Respublika bo'ylab o'tadigan Die Hard harakatining
+                        Farg'ona bosqichi — natijangiz shahar reytingiga yoziladi.
                     </p>
                     <div class="meta">
-                        <span>⏰ Yakshanba, start 4:30</span>
+                        <span>⏰ Yakshanba · vaqt mavsumga qarab guruhda e'lon qilinadi</span>
                         <span>📍 San'at saroyi bayrog'i tagida</span>
                         <span>📝 <a href="https://diehard.run" rel="noopener">diehard.run</a> da ro'yxatdan o'ting</span>
                     </div>
@@ -505,67 +564,12 @@
     <section id="musobaqalar">
         <div class="container">
             <div class="section-head reveal">
-                <span class="kicker">2026 taqvim</span>
+                <span class="kicker">Kelgusi startlar</span>
                 <h2>Kelgusi musobaqalar — birga boramiz</h2>
                 <p>Klub a'zolari qatnashishni rejalashtirgan startlar. Transport va joylashuvni guruhda birga kelishamiz.</p>
             </div>
-            <div class="events">
-                <article class="event reveal">
-                    <time datetime="2026-07-19">19-iyul</time>
-                    <div>
-                        <h3>Die Hard Final 2026</h3>
-                        <p>Shaharlararo long run finali — Farg'ona jamoasi yuqori divizionda bellashadi.</p>
-                    </div>
-                    <span class="loc">📍 Toshkent</span>
-                </article>
-                <article class="event reveal">
-                    <time datetime="2026-08-22">22–23 avgust</time>
-                    <div>
-                        <h3>Sky Camp Bostonliq</h3>
-                        <p>Amirsoy tog'laridagi treyl: 20 km (1250 m) va 55 km (3200 m+ balandlik) masofalar.</p>
-                    </div>
-                    <span class="loc">📍 Amirsoy, Bostonliq</span>
-                </article>
-                <article class="event reveal">
-                    <time datetime="2026-09-06">6-sentyabr</time>
-                    <div>
-                        <h3>Tashkent Half Marathon</h3>
-                        <p>Poytaxtdagi kuzgi yarim marafon — tezlik uchun ideal trassa.</p>
-                    </div>
-                    <span class="loc">📍 Toshkent</span>
-                </article>
-                <article class="event reveal">
-                    <time datetime="2026-09-13">13-sentyabr</time>
-                    <div>
-                        <h3>Silk Road Khiva</h3>
-                        <p>Buyuk Ipak yo'li turkumining navbatdagi bosqichi — qadimiy Xiva ko'chalarida.</p>
-                    </div>
-                    <span class="loc">📍 Xiva</span>
-                </article>
-                <article class="event reveal">
-                    <time datetime="2026-10-25">25-oktyabr</time>
-                    <div>
-                        <h3>Turkiston Marathon</h3>
-                        <p>Qo'shni Qozog'istondagi xalqaro marafon — klubning birinchi xorijiy starti.</p>
-                    </div>
-                    <span class="loc">📍 Turkiston, KZ</span>
-                </article>
-                <article class="event reveal">
-                    <time datetime="2026-11-01">1-noyabr</time>
-                    <div>
-                        <h3>Istanbul Marathon</h3>
-                        <p>Ikki qit'ani bog'lovchi ko'prik ustidan o'tadigan afsonaviy marafon.</p>
-                    </div>
-                    <span class="loc">📍 Istanbul, TR</span>
-                </article>
-                <article class="event reveal">
-                    <time datetime="2026-11-07">Noyabr</time>
-                    <div>
-                        <h3>Samarkand Marathon</h3>
-                        <p>O'zbekistonning eng yirik marafon turkumi — mavsumning yakuniy katta starti.</p>
-                    </div>
-                    <span class="loc">📍 Samarqand</span>
-                </article>
+            <div class="events" id="events" aria-live="polite">
+                <noscript><div class="events-empty">Musobaqalar ro'yxatini ko'rish uchun JavaScript yoqilgan bo'lishi kerak. Yangiliklar: <a href="https://t.me/IronReaders" rel="noopener">t.me/IronReaders</a></div></noscript>
             </div>
         </div>
     </section>
@@ -577,7 +581,16 @@
                 <span class="kicker">2026 mavsum</span>
                 <h2>Natijalarimiz va yutuqlarimiz</h2>
             </div>
-            <div class="result-grid">
+            <div class="result-grid two">
+                <article class="card hot reveal">
+                    <span class="emoji" aria-hidden="true">🏃</span>
+                    <h3>Fun Run 1 — 20-sentyabr</h3>
+                    <p>
+                        Klubning birinchi Fun Run'i San'at saroyida o'tdi: <strong>30 ga yaqin</strong>
+                        ishtirokchi 5, 10 va 21.1 km masofalarda birga yugurdi, keyin piknik bo'ldi.
+                        Hozir Fun Run har shanba — <a href="https://t.me/Iron_Readers/12" rel="noopener">hisobotni o'qing</a>.
+                    </p>
+                </article>
                 <article class="card reveal">
                     <span class="emoji" aria-hidden="true">🏅</span>
                     <h3>Silk Road Kokand — 24-may</h3>
@@ -630,7 +643,7 @@
                 <div class="step reveal">
                     <h3>Strava klubga a'zo bo'ling</h3>
                     <p>
-                        <a href="https://strava.app.link/NVgD8Segq3b" rel="noopener">Strava klubimizga</a>
+                        <a href="https://strava.app.link/38Zmm29RB6b" rel="noopener">Strava klubimizga</a>
                         qo'shiling — yugurishlaringiz haftalik reytingga tushadi va jamoa bilan
                         raqobatlashasiz.
                     </p>
@@ -638,18 +651,22 @@
                 <div class="step reveal">
                     <h3>Mashg'ulotga keling</h3>
                     <p>
-                        Yakshanba 4:30 da San'at saroyi bayrog'i tagida ko'rishamiz.
-                        Long run uchun <a href="https://diehard.run" rel="noopener">diehard.run</a> da
-                        ro'yxatdan o'tishni unutmang.
+                        Shanba 05:30 da San'at saroyiga keling — 06:00 da Fun Run starti.
+                        Avval <a href="https://t.me/Fargona_marafon_bot" rel="noopener">botda</a> ro'yxatdan o'ting.
+                        Yakshanba long run uchun <a href="https://diehard.run" rel="noopener">diehard.run</a> da
+                        ham yoziling.
                     </p>
                 </div>
             </div>
             <div class="join-actions reveal">
-                <a class="btn btn-primary" href="https://t.me/IronReaders" rel="noopener">
+                <a class="btn btn-primary" href="https://t.me/Fargona_marafon_bot" rel="noopener">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.04 15.31 8.7 19.9c.47 0 .68-.2.93-.45l2.24-2.14 4.64 3.4c.85.47 1.46.22 1.69-.79l3.06-14.34c.27-1.25-.45-1.74-1.28-1.44L2.2 11.06c-1.23.48-1.21 1.16-.21 1.47l4.6 1.44L17.3 7.24c.5-.33.96-.15.58.18l-8.84 7.9z"/></svg>
+                    Fun Run'ga yozilish
+                </a>
+                <a class="btn btn-ghost" href="https://t.me/IronReaders" rel="noopener">
                     Guruhga qo'shilish
                 </a>
-                <a class="btn btn-ghost" href="https://strava.app.link/NVgD8Segq3b" rel="noopener">
+                <a class="btn btn-ghost" href="https://strava.app.link/38Zmm29RB6b" rel="noopener">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.39 17.94l-2.09-4.11h-3.07L15.39 24l5.15-10.17h-3.07m-7.01-5.6l2.84 5.6h4.17L10.46 0l-7 13.83h4.17"/></svg>
                     Strava'da kuzatish
                 </a>
@@ -684,9 +701,19 @@
                 <details class="reveal">
                     <summary>Mashg'ulotlar qayerda va qachon o'tadi?</summary>
                     <p>
-                        Asosiy yig'ilish joyi — Farg'ona shahri, San'at saroyi maydoni. Yozda
-                        ertalabki yugurishlar soat 4:30–5:00 da, kechki yengil yugurishlar
-                        20:00–21:00 da, yakshanba kunlari esa 20 km lik Die Hard long run bo'ladi.
+                        Asosiy yig'ilish joyi — Farg'ona shahri, San'at saroyi maydoni. Har shanba
+                        05:30 da yig'ilib, 06:00 da 5 km Fun Run start oladi; kechki yengil yugurishlar
+                        20:00–21:00 da; yakshanba kunlari esa 20 km lik Die Hard long run bo'ladi
+                        (vaqti mavsumga qarab guruhda e'lon qilinadi).
+                    </p>
+                </details>
+                <details class="reveal">
+                    <summary>Fun Run nima va unga qanday yozilaman?</summary>
+                    <p>
+                        Fun Run — har shanba ertalab San'at saroyi maydonida o'tadigan bepul 5 km
+                        yugurish. Bu musobaqa emas: har kim o'z tempida yuguradi. Telegram
+                        <a href="https://t.me/Fargona_marafon_bot" rel="noopener">botda</a> bir marta ro'yxatdan o'ting,
+                        keyin har hafta "Kelaman" tugmasini bosing. Yig'ilish 05:30, start 06:00.
                     </p>
                 </details>
                 <details class="reveal">
@@ -724,13 +751,13 @@
                     Sog'lom turmush, kuchli iroda va do'stlar davrasi.
                 </p>
                 <div class="social-row">
-                    <a href="https://t.me/IronReaders" rel="noopener" aria-label="Telegram">
+                    <a href="https://t.me/IronReaders" rel="noopener" aria-label="Telegram guruh">
                         <svg viewBox="0 0 24 24"><path d="M9.04 15.31 8.7 19.9c.47 0 .68-.2.93-.45l2.24-2.14 4.64 3.4c.85.47 1.46.22 1.69-.79l3.06-14.34c.27-1.25-.45-1.74-1.28-1.44L2.2 11.06c-1.23.48-1.21 1.16-.21 1.47l4.6 1.44L17.3 7.24c.5-.33.96-.15.58.18l-8.84 7.9z"/></svg>
                     </a>
-                    <a href="https://strava.app.link/NVgD8Segq3b" rel="noopener" aria-label="Strava">
+                    <a href="https://strava.app.link/38Zmm29RB6b" rel="noopener" aria-label="Strava">
                         <svg viewBox="0 0 24 24"><path d="M15.39 17.94l-2.09-4.11h-3.07L15.39 24l5.15-10.17h-3.07m-7.01-5.6l2.84 5.6h4.17L10.46 0l-7 13.83h4.17"/></svg>
                     </a>
-                    <a href="https://www.instagram.com/al_samandar" rel="noopener" aria-label="Instagram">
+                    <a href="https://www.instagram.com/ferganarunners" rel="noopener" aria-label="Instagram">
                         <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.06 3.25.15 4.77 1.7 4.92 4.92.06 1.26.07 1.64.07 4.82s-.01 3.56-.07 4.82c-.15 3.22-1.66 4.77-4.92 4.92-1.25.06-1.63.07-4.85.07s-3.6-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.56 2.16 15.18 2.16 12s.01-3.56.07-4.82C2.38 3.96 3.9 2.41 7.15 2.26 8.4 2.21 8.78 2.2 12 2.2zm0 3.63a6.17 6.17 0 1 0 0 12.34 6.17 6.17 0 0 0 0-12.34zm0 10.18a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
                     </a>
                 </div>
@@ -748,7 +775,9 @@
             <div>
                 <h4>Foydali havolalar</h4>
                 <ul>
-                    <li><a href="https://strava.app.link/NVgD8Segq3b" rel="noopener">Strava klubimiz</a></li>
+                    <li><a href="https://t.me/Fargona_marafon_bot" rel="noopener">Fun Run boti</a></li>
+                    <li><a href="https://t.me/Iron_readers" rel="noopener">Telegram kanal</a></li>
+                    <li><a href="https://strava.app.link/38Zmm29RB6b" rel="noopener">Strava klubimiz</a></li>
                     <li><a href="https://diehard.run" rel="noopener">Die Hard — diehard.run</a></li>
                     <li><a href="https://phoenix-pack.uz" rel="noopener">Phoenix Pack reytingi</a></li>
                     <li><a href="https://samarkandmarathon.uz" rel="noopener">Samarkand Marathon</a></li>
@@ -776,6 +805,60 @@
             menuBtn.setAttribute('aria-expanded', 'false');
         })
     );
+
+    // ---- Upcoming races. Edit only this list; past dates disappear by themselves.
+    // date = last day of the event (YYYY-MM-DD, Tashkent time). exact:false = no fixed date yet (no structured data).
+    const EVENTS = [
+        { date: '2026-10-25', label: '25-oktyabr', name: 'Turkiston Marathon', desc: "Qo'shni Qozog'istondagi xalqaro marafon — klubning birinchi xorijiy starti.", loc: 'Turkiston, KZ', place: 'Turkistan', country: 'KZ' },
+        { date: '2026-11-01', label: '1-noyabr', name: 'Istanbul Marathon', desc: "Ikki qit'ani bog'lovchi ko'prik ustidan o'tadigan afsonaviy marafon.", loc: 'Istanbul, TR', place: 'Istanbul', country: 'TR' },
+        { date: '2026-11-30', label: 'Noyabr', name: 'Samarkand Marathon', desc: "O'zbekistonning eng yirik marafon turkumi — mavsumning yakuniy katta starti.", loc: 'Samarqand', place: 'Samarkand', country: 'UZ', exact: false }
+    ];
+    const MONTHS = ['yanvar','fevral','mart','aprel','may','iyun','iyul','avgust','sentyabr','oktyabr','noyabr','dekabr'];
+    const tashkent = new Date(Date.now() + 5 * 3600e3); // UTC+5, no DST
+    const todayStr = tashkent.toISOString().slice(0, 10);
+
+    const eventsEl = document.getElementById('events');
+    const upcoming = EVENTS.filter(e => e.date >= todayStr).sort((a, b) => a.date.localeCompare(b.date));
+    eventsEl.querySelectorAll('noscript').forEach(n => n.remove());
+    if (!upcoming.length) {
+        const p = document.createElement('div');
+        p.className = 'events-empty reveal';
+        p.innerHTML = 'Yangi startlar tez orada e\'lon qilinadi — <a href="https://t.me/IronReaders" rel="noopener">Telegram guruhda</a> kuzating.';
+        eventsEl.appendChild(p);
+    }
+    upcoming.forEach(e => {
+        const art = document.createElement('article'); art.className = 'event reveal';
+        const t = document.createElement('time'); t.dateTime = e.date; t.textContent = e.label;
+        const box = document.createElement('div');
+        const h = document.createElement('h3'); h.textContent = e.name;
+        const d = document.createElement('p'); d.textContent = e.desc;
+        box.append(h, d);
+        const l = document.createElement('span'); l.className = 'loc'; l.textContent = '📍 ' + e.loc;
+        art.append(t, box, l); eventsEl.appendChild(art);
+    });
+    const ld = upcoming.filter(e => e.exact !== false).map(e => ({
+        '@context': 'https://schema.org', '@type': 'SportsEvent', name: e.name, description: e.desc,
+        startDate: e.date, eventStatus: 'https://schema.org/EventScheduled',
+        eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+        location: { '@type': 'Place', name: e.place, address: { '@type': 'PostalAddress', addressLocality: e.place, addressCountry: e.country } }
+    }));
+    if (ld.length) {
+        const sc = document.createElement('script'); sc.type = 'application/ld+json';
+        sc.textContent = JSON.stringify(ld); document.head.appendChild(sc);
+    }
+
+    // ---- Next Fun Run: every Saturday 06:00 Tashkent time
+    (function () {
+        let add = (6 - tashkent.getUTCDay() + 7) % 7;
+        if (add === 0 && tashkent.getUTCHours() >= 8) add = 7;
+        const d = new Date(Date.UTC(tashkent.getUTCFullYear(), tashkent.getUTCMonth(), tashkent.getUTCDate() + add));
+        const txt = add === 0 ? 'bugun, shanba' : d.getUTCDate() + '-' + MONTHS[d.getUTCMonth()] + ', shanba';
+        document.querySelectorAll('.js-next-run').forEach(el => { el.textContent = txt + ' · 06:00'; });
+        document.querySelectorAll('.js-next-line').forEach(el => { el.hidden = false; });
+        const hero = document.getElementById('next-run-hero');
+        if (hero) hero.innerHTML = '🔥 Keyingi Fun Run: <strong></strong> · yig\'ilish 05:30';
+        if (hero) hero.querySelector('strong').textContent = txt + ' · 06:00';
+    })();
 
     // Reveal on scroll
     const io = new IntersectionObserver(entries => {
